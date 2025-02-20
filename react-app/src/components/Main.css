@@ -1,0 +1,40 @@
+.main-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: border-color 3.3s;
+}
+
+.main-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main-button:hover {
+    background-color: #bb3232;
+    transition: all 0.3s;
+}
+
+.main-button.clicked {
+    background-color: red; 
+    transition: all 2.3s;
+}
+
+.main-container.red-border {
+    border-color: red; 
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
